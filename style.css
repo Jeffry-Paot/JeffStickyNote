@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+*{
+    box-sizing: border-box; 
+    font-family: 'Nova Slim', cursive;
+    
+}
+
+body{
+    background-color: rgb(1, 148, 148);
+    font-family: 'Nova Slim', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font: 300% 'Righteous', cursive;
+    margin-bottom: 1%;
+}
+
+h2{
+    margin-top: 0%;
+    font-family: 'Nova Slim', cursive;
+}
+
+form{
+    text-align: center;
+}
+
+#notetxt{
+    width: 62%;
+    padding: 10px;
+    font-size: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#addButton{
+    width: 120px;
+    padding: 10px 5px;
+    font: bold 100% 'Arial', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(80, 150, 86);
+}
+
+#notetxt:focus , #notetxt:hover, #addButton:hover{
+    box-shadow: 0px 0px 10px 2px rgb(75, 69, 69);
+}  
+
+@media screen and (max-width: 350px){
+    h1{
+        font-size: 250%;
+    }
+
+    h2{
+        font-size: 125%;
+    }
+
+    #notetxt{
+        width: 90%;
+    }
+
+    #addButton{
+        margin-top: 5%;
+    }
+}
+
+#stickers{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 0% 0% 0%;
+    padding: 0%;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#stickers li{
+    width: 220px;
+    height: 320px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 10px; /* top-bottom left-right */
+    font: 200% 'Nanum Pen Script', cursive;
+    background: #fff740;
+    box-shadow: 5px 5px 2px rgb(75, 69, 69);
+}
+
+.sticky{
+    word-wrap: break-word;
+}

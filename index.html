@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 title="Sticky Notes" style="font-family: 'Nova Slim', cursive;">Sticky Notes</h1>
+        </header>
+
+        <form>
+            <input type="text" id="notetxt" maxlength="100" placeholder="Escriba su nota"
+                title="Puedes escribir hasta 100 caracteres">
+            <input type="button" id="addButton" value="Añadir Nota" title="Click para añadir tu nota" style="font-family: 'Nova Slim', cursive;">
+        </form>
+
+        <ul id="stickers"></ul>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
